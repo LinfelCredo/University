@@ -1,0 +1,272 @@
+html{
+    will-change:contents;
+    scroll-behavior: smooth;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: 2000px 1000px;
+background-image: url(Images/Trees.122jpg.jpg);
+  
+image-rendering: pixelated;
+  background-attachment:fixed;
+  image-rendering: optimizeSpeed;
+  overflow-x: hidden;
+  
+}
+
+.navbar {
+  height: 170px;
+  top: 0px;
+  left: 0px;
+  width: 1910px;
+  position: fixed;
+  background: rgba(149, 8, 49, 1);
+  font-family: COREY SANS;
+  padding-right: 0px;
+  padding-left: 10px;
+  z-index: 9999;
+}
+
+.Text {
+  width: 646px;
+  background: rgb(206, 202, 3);
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 45px;
+  font-weight: 700px;
+  color: black;
+}
+.Text2 {
+  text-align: center;
+  width: 646px;
+  background: rgb(206, 202, 3);
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 700px;
+  color: black;
+}
+.Text3 {
+color: white  ;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  
+}
+.Form {
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  width: 1670px;
+  height:790px;
+
+ background-color: #720404; 
+}
+
+li {
+    list-style: none;
+  inline-size: block;
+  display: flexbox;
+  padding-left: 5px;
+
+  margin-top: -40px;
+}
+ul {
+  margin-bottom: 20px;
+}
+input {
+  font-size: 18px;
+  height: 30px;
+}
+.input1 {
+  position: relative;
+  width: 200px;
+}
+.input2 {
+  position: relative;
+  width: 200px;
+  top: -55px;
+  left: 235px;
+}
+.input3 {
+  position: relative;
+  width: 200px;
+  top: -110px;
+  left: 470px;
+}
+.input4 {
+  position: relative;
+  width: 670px;
+  bottom: 110px;
+}
+.input5{
+  position: relative;
+  width: 400px;
+left:0px;
+  bottom: 110px;
+}
+.input6 {
+  position: relative;
+  width: 400px;
+  left:435px;
+  bottom: 165px;
+}
+.input7 {
+  position: relative;
+  width: 200px;
+  bottom: 165px;
+}
+.input8 {
+  position: relative;
+  width: 200px;
+  bottom:220px;
+  left: 235px;
+}
+
+.input9 {
+  position: relative;
+  width: 200px;
+  bottom: 275px;
+  left: 470px;
+}
+.input10{
+    position: relative;
+    width: 200px;
+    bottom: 275px;
+    left: 0px;
+  }
+  .input11{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    bottom: 364px;
+    left: 235px;
+  }
+  .input12{
+    position: relative;
+    width: 670px;
+    bottom: 364px;
+    left: 0px;
+  }
+  .input13{
+    position: relative;
+    width: 200px;
+    bottom: 364px;
+    left: 0px;
+  }
+  .input14{
+    position: relative;
+    width: 200px;
+    bottom: 450px;
+    left: 235px;
+  }
+  .input15{
+    position: relative;
+    width: 200px;
+    bottom: 245px;
+    left: -50px;
+  }
+  .input16{
+    position: relative;
+    width: 200px;
+    bottom: 300px;
+    left: 185px;
+  }
+  .input17{
+    position: relative;
+    width: 200px;
+    bottom:355px;
+    left: 420px;
+  }
+  .input18{
+    position: relative;
+    width: 200px;
+    bottom: 315px;
+    left: -50px;
+  }
+  .input19{
+    position: relative;
+    width: 200px;
+    bottom: 370px;
+    left: 185px;
+  }
+  .input20{
+    position: relative;
+    width: 200px;
+    bottom: 425px;
+    left: 420px;
+  }
+  .input21{
+    position: relative;
+    width: 260px;
+    bottom: 365px;
+    left: -45px;
+  }
+
+  .line{
+    position: absolute;
+    top:0px;
+    left:920px;
+    height: 790px;
+    width: 4px;
+    background-color: black;
+  }
+  .container{
+    position: absolute;
+    top:315px;
+    left:950px;
+    width: 700px;
+    height: 100px;
+
+   
+  }
+  .container23 {position:relative;
+    bottom: 400px;
+    left: 0px;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+canvas {background-color: white;
+    border: 2.5px solid #100404;
+    border-radius: 8px;
+    cursor: crosshair;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.button34 {
+    padding: 0.5249343832020997vw 1.0498687664041995vw;
+    margin: 0 0.26246719160104987vw;
+    border: none;
+    border-radius: 0.26246719160104987vw;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signature-img {
+    margin-top: 10px;
+    max-width: 100%;
+    border: 1 px solid #ccc;
+    border-radius: 8px;
+}
+.Submit1{
+  margin-left: 40px;
+  position: relative;
+  width:7.874015748031496vw;
+  height: 3.1496062992125986vw;
+  border: 0px solid;
+  border-radius: 10px;
+  bottom: -20px;
+  left: -20px;
+  }  
+   

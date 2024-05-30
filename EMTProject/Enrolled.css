@@ -1,0 +1,113 @@
+body {
+  background-attachment: fixed;
+  background-size: 2000px 1000px;
+  background-image: url(Images/6.jpg);
+  image-rendering: auto;
+}
+
+.navbar {
+  height: 170px;
+  top: 0px;
+  left: 0px;
+  width: 1910px;
+  position: fixed;
+  background: rgba(149, 8, 49, 1);
+  font-family: COREY SANS;
+  padding-right: 0px;
+  padding-left: 10px;
+  z-index: 9999;
+}
+.Text {
+  width: 646px;
+  background: rgb(206, 202, 3);
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 45px;
+  font-weight: 700px;
+  color: black;
+}
+.Text2 {
+  text-align: center;
+  width: 646px;
+  background: rgb(206, 202, 3);
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 700px;
+  color: black;
+}
+
+.A {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  height: 550px;
+  width: 550px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgb(217, 215, 215);
+  background: linear-gradient(
+    0deg,
+    rgba(180, 121, 150, 1) 0%,
+    rgba(176, 95, 129, 1) 12%,
+    rgba(149, 8, 49, 1) 100%
+  );
+  
+}
+
+
+.B {
+  position: relative;
+  text-align: center;
+  top: 250px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200px;
+  font-style: normal;
+  color: rgb(246, 242, 242);
+}
+.C {
+  outline: none;
+  border-style: none;
+  position: absolute;
+  bottom: 120px;
+  left: 170px;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  font-family: "Calibri", sans-serif;
+  font-weight: 200px;
+}
+.C:hover {
+  outline: none;
+  border-style: none;
+  box-shadow: 0px 0px 2px 2px blue;
+  background-color: rgb(0, 255, 0);
+  transition: ease-in 0.9s;
+
+  font-display: white;
+}
+.font {
+  font-family: "Calibri", sans-serif;
+  position: relative;
+  top: -10px;
+}
+.D {
+  position: relative;
+  text-align: center;
+  top: 70px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200px;
+  font-style: normal;
+  color: rgb(245, 240, 240);
+}
+.image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 150px;
+  left: 190px;
+}
+
